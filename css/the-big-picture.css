@@ -11,16 +11,17 @@ body {
 }
 
 .full {
-  background: url(../img/mobo.jpg) no-repeat center center fixed; 
+  background: url(../img/mobo.jpg) #000 no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-h1 { 
+h1,h2,h3,h4,h5,h6 { 
 	color: white;
 	background: rgb(45, 45, 45);
-    width: 4.8em;
+    width: fit-content;
     border-radius: 10px;
+    padding: 0 10px;
 }
